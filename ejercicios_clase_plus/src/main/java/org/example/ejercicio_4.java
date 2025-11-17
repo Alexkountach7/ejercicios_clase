@@ -9,8 +9,14 @@ public class ejercicio_4 {
         int rango = sc.nextInt();
 
         primo:
-        for (int i =2; i<=rango; i++){
-            if (i%==0 && )
-        }for (int j=)
+        for (int i =2; i<=rango; i++) {
+
+            for (int j = 2; j <= 1; j++) {
+                if (i % j == 0){
+                    continue primo;
+                }
+            }
+        }
+        System.out.println(i);
     }
 }
