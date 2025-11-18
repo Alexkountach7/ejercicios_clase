@@ -17,6 +17,6 @@ public class ejercicio_4 {
                 }
             }
         }
-        System.out.println(i);
+        //System.out.println(i);
     }
 }
